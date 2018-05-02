@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D2F0C8F209A0DA200C78D5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F0C8E209A0DA200C78D5C /* AppDelegate.swift */; };
+		4D2F0C91209A0DA200C78D5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F0C90209A0DA200C78D5C /* ViewController.swift */; };
+		4D2F0C94209A0DA200C78D5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2F0C92209A0DA200C78D5C /* Main.storyboard */; };
+		4D2F0C96209A0DA300C78D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2F0C95209A0DA300C78D5C /* Assets.xcassets */; };
+		4D2F0C99209A0DA300C78D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2F0C97209A0DA300C78D5C /* LaunchScreen.storyboard */; };
+		4D2F0CA4209A0DA400C78D5C /* HowlTalkCopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F0CA3209A0DA400C78D5C /* HowlTalkCopyTests.swift */; };
+		4D2F0CAF209A0DA400C78D5C /* HowlTalkCopyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F0CAE209A0DA400C78D5C /* HowlTalkCopyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D2F0CA0209A0DA400C78D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2F0C83209A0DA200C78D5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D2F0C8A209A0DA200C78D5C;
+			remoteInfo = HowlTalkCopy;
+		};
+		4D2F0CAB209A0DA400C78D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2F0C83209A0DA200C78D5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D2F0C8A209A0DA200C78D5C;
+			remoteInfo = HowlTalkCopy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D2F0C8B209A0DA200C78D5C /* HowlTalkCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowlTalkCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2F0C8E209A0DA200C78D5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D2F0C90209A0DA200C78D5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D2F0C93209A0DA200C78D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D2F0C95209A0DA300C78D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D2F0C98209A0DA300C78D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D2F0C9A209A0DA300C78D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2F0C9F209A0DA400C78D5C /* HowlTalkCopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlTalkCopyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2F0CA3209A0DA400C78D5C /* HowlTalkCopyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlTalkCopyTests.swift; sourceTree = "<group>"; };
+		4D2F0CA5209A0DA400C78D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2F0CAA209A0DA400C78D5C /* HowlTalkCopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlTalkCopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2F0CAE209A0DA400C78D5C /* HowlTalkCopyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlTalkCopyUITests.swift; sourceTree = "<group>"; };
+		4D2F0CB0209A0DA400C78D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D2F0C88209A0DA200C78D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2F0C9C209A0DA400C78D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2F0CA7209A0DA400C78D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2F0C82209A0DA200C78D5C = {
+			isa = PBXGroup;
+			children = (
+				4D2F0C8D209A0DA200C78D5C /* HowlTalkCopy */,
+				4D2F0CA2209A0DA400C78D5C /* HowlTalkCopyTests */,
+				4D2F0CAD209A0DA400C78D5C /* HowlTalkCopyUITests */,
+				4D2F0C8C209A0DA200C78D5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D2F0C8C209A0DA200C78D5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D2F0C8B209A0DA200C78D5C /* HowlTalkCopy.app */,
+				4D2F0C9F209A0DA400C78D5C /* HowlTalkCopyTests.xctest */,
+				4D2F0CAA209A0DA400C78D5C /* HowlTalkCopyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D2F0C8D209A0DA200C78D5C /* HowlTalkCopy */ = {
+			isa = PBXGroup;
+			children = (
+				4D2F0C8E209A0DA200C78D5C /* AppDelegate.swift */,
+				4D2F0C90209A0DA200C78D5C /* ViewController.swift */,
+				4D2F0C92209A0DA200C78D5C /* Main.storyboard */,
+				4D2F0C95209A0DA300C78D5C /* Assets.xcassets */,
+				4D2F0C97209A0DA300C78D5C /* LaunchScreen.storyboard */,
+				4D2F0C9A209A0DA300C78D5C /* Info.plist */,
+			);
+			path = HowlTalkCopy;
+			sourceTree = "<group>";
+		};
+		4D2F0CA2209A0DA400C78D5C /* HowlTalkCopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D2F0CA3209A0DA400C78D5C /* HowlTalkCopyTests.swift */,
+				4D2F0CA5209A0DA400C78D5C /* Info.plist */,
+			);
+			path = HowlTalkCopyTests;
+			sourceTree = "<group>";
+		};
+		4D2F0CAD209A0DA400C78D5C /* HowlTalkCopyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D2F0CAE209A0DA400C78D5C /* HowlTalkCopyUITests.swift */,
+				4D2F0CB0209A0DA400C78D5C /* Info.plist */,
+			);
+			path = HowlTalkCopyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D2F0C8A209A0DA200C78D5C /* HowlTalkCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2F0CB3209A0DA400C78D5C /* Build configuration list for PBXNativeTarget "HowlTalkCopy" */;
+			buildPhases = (
+				4D2F0C87209A0DA200C78D5C /* Sources */,
+				4D2F0C88209A0DA200C78D5C /* Frameworks */,
+				4D2F0C89209A0DA200C78D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowlTalkCopy;
+			productName = HowlTalkCopy;
+			productReference = 4D2F0C8B209A0DA200C78D5C /* HowlTalkCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D2F0C9E209A0DA400C78D5C /* HowlTalkCopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2F0CB6209A0DA400C78D5C /* Build configuration list for PBXNativeTarget "HowlTalkCopyTests" */;
+			buildPhases = (
+				4D2F0C9B209A0DA400C78D5C /* Sources */,
+				4D2F0C9C209A0DA400C78D5C /* Frameworks */,
+				4D2F0C9D209A0DA400C78D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D2F0CA1209A0DA400C78D5C /* PBXTargetDependency */,
+			);
+			name = HowlTalkCopyTests;
+			productName = HowlTalkCopyTests;
+			productReference = 4D2F0C9F209A0DA400C78D5C /* HowlTalkCopyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D2F0CA9209A0DA400C78D5C /* HowlTalkCopyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2F0CB9209A0DA400C78D5C /* Build configuration list for PBXNativeTarget "HowlTalkCopyUITests" */;
+			buildPhases = (
+				4D2F0CA6209A0DA400C78D5C /* Sources */,
+				4D2F0CA7209A0DA400C78D5C /* Frameworks */,
+				4D2F0CA8209A0DA400C78D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D2F0CAC209A0DA400C78D5C /* PBXTargetDependency */,
+			);
+			name = HowlTalkCopyUITests;
+			productName = HowlTalkCopyUITests;
+			productReference = 4D2F0CAA209A0DA400C78D5C /* HowlTalkCopyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D2F0C83209A0DA200C78D5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = junhee;
+				TargetAttributes = {
+					4D2F0C8A209A0DA200C78D5C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4D2F0C9E209A0DA400C78D5C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4D2F0C8A209A0DA200C78D5C;
+					};
+					4D2F0CA9209A0DA400C78D5C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4D2F0C8A209A0DA200C78D5C;
+					};
+				};
+			};
+			buildConfigurationList = 4D2F0C86209A0DA200C78D5C /* Build configuration list for PBXProject "HowlTalkCopy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D2F0C82209A0DA200C78D5C;
+			productRefGroup = 4D2F0C8C209A0DA200C78D5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D2F0C8A209A0DA200C78D5C /* HowlTalkCopy */,
+				4D2F0C9E209A0DA400C78D5C /* HowlTalkCopyTests */,
+				4D2F0CA9209A0DA400C78D5C /* HowlTalkCopyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D2F0C89209A0DA200C78D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2F0C99209A0DA300C78D5C /* LaunchScreen.storyboard in Resources */,
+				4D2F0C96209A0DA300C78D5C /* Assets.xcassets in Resources */,
+				4D2F0C94209A0DA200C78D5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2F0C9D209A0DA400C78D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2F0CA8209A0DA400C78D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D2F0C87209A0DA200C78D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2F0C91209A0DA200C78D5C /* ViewController.swift in Sources */,
+				4D2F0C8F209A0DA200C78D5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2F0C9B209A0DA400C78D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2F0CA4209A0DA400C78D5C /* HowlTalkCopyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2F0CA6209A0DA400C78D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2F0CAF209A0DA400C78D5C /* HowlTalkCopyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D2F0CA1209A0DA400C78D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D2F0C8A209A0DA200C78D5C /* HowlTalkCopy */;
+			targetProxy = 4D2F0CA0209A0DA400C78D5C /* PBXContainerItemProxy */;
+		};
+		4D2F0CAC209A0DA400C78D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D2F0C8A209A0DA200C78D5C /* HowlTalkCopy */;
+			targetProxy = 4D2F0CAB209A0DA400C78D5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D2F0C92209A0DA200C78D5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D2F0C93209A0DA200C78D5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D2F0C97209A0DA300C78D5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D2F0C98209A0DA300C78D5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D2F0CB1209A0DA400C78D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D2F0CB2209A0DA400C78D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D2F0CB4209A0DA400C78D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HowlTalkCopy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.junhee.HowlTalkCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D2F0CB5209A0DA400C78D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HowlTalkCopy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.junhee.HowlTalkCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D2F0CB7209A0DA400C78D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlTalkCopyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.junhee.HowlTalkCopyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowlTalkCopy.app/HowlTalkCopy";
+			};
+			name = Debug;
+		};
+		4D2F0CB8209A0DA400C78D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlTalkCopyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.junhee.HowlTalkCopyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowlTalkCopy.app/HowlTalkCopy";
+			};
+			name = Release;
+		};
+		4D2F0CBA209A0DA400C78D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlTalkCopyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.junhee.HowlTalkCopyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowlTalkCopy;
+			};
+			name = Debug;
+		};
+		4D2F0CBB209A0DA400C78D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlTalkCopyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.junhee.HowlTalkCopyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowlTalkCopy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D2F0C86209A0DA200C78D5C /* Build configuration list for PBXProject "HowlTalkCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2F0CB1209A0DA400C78D5C /* Debug */,
+				4D2F0CB2209A0DA400C78D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2F0CB3209A0DA400C78D5C /* Build configuration list for PBXNativeTarget "HowlTalkCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2F0CB4209A0DA400C78D5C /* Debug */,
+				4D2F0CB5209A0DA400C78D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2F0CB6209A0DA400C78D5C /* Build configuration list for PBXNativeTarget "HowlTalkCopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2F0CB7209A0DA400C78D5C /* Debug */,
+				4D2F0CB8209A0DA400C78D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2F0CB9209A0DA400C78D5C /* Build configuration list for PBXNativeTarget "HowlTalkCopyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2F0CBA209A0DA400C78D5C /* Debug */,
+				4D2F0CBB209A0DA400C78D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D2F0C83209A0DA200C78D5C /* Project object */;
+}
