@@ -7,7 +7,9 @@ target 'HowlTalkCopy' do
 
   # Pods for HowlTalkCopy
   pod 'SnapKit'
-  
+  pod 'Firebase/Core'
+  pod 'Firebase/RemoteConfig'
+
   target 'HowlTalkCopyTests' do
     inherit! :search_paths
     # Pods for testing
